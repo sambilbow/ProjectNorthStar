@@ -1,6 +1,6 @@
-# Initial Release 3D Printing Reference
+# Release 1 3D Printing Reference
 
-Note, this refence is for the initial Version 1 Release, however it has useful information for 3D printing in general and is still worth reading.
+Note, this refence is for the Release 1, however it has useful information for 3D printing in general and is still worth reading.
 
 Use your slicer's part orientation tools to ensure flat contact with print surface. In Simplify 3D, it can be found in the menu "Edit > Place Surface On Bed"
 

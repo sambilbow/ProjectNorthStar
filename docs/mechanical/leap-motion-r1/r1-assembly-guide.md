@@ -1,12 +1,12 @@
 # Northstar Release 1
 
-The following pages contain the original documentation for the first version of Project Northstar, the latest version is here: [Northstar 3.1](../leap-motion-v3/README.md)
+The following pages contain the original documentation for the first release of Project Northstar, the latest release is here: [Northstar 3.1](../leap-motion-r3/README.md)
 
 
 # Initial Release Assembly Guide
 
 !!! Warning
-    This Assembly Guide is for version 1 of the headset, for the most recent version [click here](../leap-motion-v3/headset-assembly.md)
+    This Assembly Guide is for Release 1 of the headset, for the most recent release [click here](../leap-motion-r3/headset-assembly.md)
 
 The purpose of this guide is to instruct, with access to a few common tools, how to make a Project North Star reference AR headset. It's aimed to be accessible and inexpensive to build, using as many off-the-shelf components and 3D-printed parts as possible. For now, several key components are custom-made \(e.g. the reflectors, display driver board, and our custom ultra-wide hand tracking module\), but we know that together we can find make some work-arounds and alternatives.
 

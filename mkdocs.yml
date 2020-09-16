@@ -6,11 +6,11 @@ nav:
       - Community Links: community-links.md
   - Mechanical:
       - Getting Started: mechanical/README.md
-      - Leap Motion Version 3:
-          - Getting Started: mechanical/leap-motion-v3/README.md
-          - Bill of Materials: mechanical/leap-motion-v3/headset-bom.md
-          - Assembly Guide: mechanical/leap-motion-v3/headset-assembly.md
-      - Leap Motion Version 1:
+      - Leap Motion Release 3:
+          - Getting Started: mechanical/leap-motion-r3/README.md
+          - Bill of Materials: mechanical/leap-motion-r3/headset-bom.md
+          - Assembly Guide: mechanical/leap-motion-r3/headset-assembly.md
+      - Leap Motion Release 1:
           - Assembly Guide: mechanical/leap-motion-v1/v1-assembly-guide.md
           - 3D Print Reference: mechanical/leap-motion-v1/v1-3d-print-reference.md
       - Smart Prototyping Kits: mechanical/smart-prototyping-kits.md
