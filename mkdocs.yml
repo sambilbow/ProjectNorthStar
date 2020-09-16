@@ -10,8 +10,8 @@ nav:
   - Mechanical:
       - CombineReality Deck X:
           - Deck X Assembly Guide: /
-      - Leap Motion Release 3:
-          - Getting Started: mechanical/leap-motion-r3/README.md
+      - Leap Motion Release 3: 
+          - ReadMe: mechanical/leap-motion-r3/README.md
           - Bill of Materials: mechanical/leap-motion-r3/headset-bom.md
           - Assembly Guide: mechanical/leap-motion-r3/headset-assembly.md
       - Leap Motion Release 1:
@@ -23,7 +23,6 @@ nav:
   - Software:
       - Getting Started: software/getting-started.md
       - SteamVR: software/steamvr.md
-      - FAQ: software/README.md
   - Calibration:
       - Getting Started: calibration/README.md
       - Version 1: calibration/calibration-v1.md
