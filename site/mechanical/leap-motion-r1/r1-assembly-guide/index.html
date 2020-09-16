@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Northstar Release 1 - Project North Star</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Project North Star</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../hi/gi" class="dropdown-item">Test</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Mechanical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 3</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../leap-motion-r3/" class="dropdown-item">Getting Started</a>
+</li>
+            
+<li>
+    <a href="../../leap-motion-r3/headset-bom.md" class="dropdown-item">Bill of Materials</a>
+</li>
+            
+<li>
+    <a href="../../leap-motion-r3/headset-assembly/" class="dropdown-item">Assembly Guide</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 1</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../leap-motion-v1/v1-assembly-guide.md" class="dropdown-item">Assembly Guide</a>
+</li>
+            
+<li>
+    <a href="../../leap-motion-v1/v1-3d-print-reference.md" class="dropdown-item">3D Print Reference</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../smart-prototyping-kits/" class="dropdown-item">Smart Prototyping Kits</a>
+</li>
+                                    
+<li>
+    <a href="https://exiii.jp/2018/07/25/project_north_star_en/" class="dropdown-item">Exii Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../software/getting-started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../../software/steamvr/" class="dropdown-item">SteamVR</a>
+</li>
+                                    
+<li>
+    <a href="../../../software/" class="dropdown-item">FAQ</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Calibration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../calibration/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../../calibration/calibration-v1/" class="dropdown-item">Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../../calibration/calibration-v2/" class="dropdown-item">Version 2</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../electronics/electronics/" class="dropdown-item">Electronics</a>
+</li>
+                                    
+<li>
+    <a href="../../../electronics/firmware/" class="dropdown-item">Firmware</a>
+</li>
+                                    
+<li>
+    <a href="../../../electronics/schematics/" class="dropdown-item">Schematics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community Links <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="https://discordapp.com/invite/NghjdX7" class="dropdown-item">Discord</a>
+</li>
+                                    
+<li>
+    <a href="https://twitter.com/search?q=%23ProjectNorthStar" class="dropdown-item">Twitter</a>
+</li>
+                                    
+<li>
+    <a href="https://www.reddit.com/r/ProjectNorthStar/" class="dropdown-item">Reddit</a>
+</li>
+                                    
+<li>
+    <a href="https://forums.leapmotion.com/t/project-north-star/7071" class="dropdown-item">Leap Motion Forums</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Leap Motion Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/tag/north-star/" class="dropdown-item">Blog</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/bending-reality-north-stars-calibration-system/" class="dropdown-item">Bending Reality North Star’s Calibration System</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-3/" class="dropdown-item">Project North Star Mechanical Update 3</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-and-calibration-update-3-1/" class="dropdown-item">Project North Star Mechanical and Calibration Update 3.1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-1/" class="dropdown-item">Project North Star Mechanical Update 1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/north-star-open-source/" class="dropdown-item">Project North Star is Now Open Source</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/our-journey-to-the-north-star/" class="dropdown-item">Our Journey to the North Star</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/northstar/" class="dropdown-item">Unveiling Project North Star</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#northstar-release-1" class="nav-link">Northstar Release 1</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#initial-release-assembly-guide" class="nav-link">Initial Release Assembly Guide</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#overview" class="nav-link">Overview</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#tools-materials" class="nav-link">Tools &amp; Materials</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#bom" class="nav-link">BOM</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#assembly-steps" class="nav-link">Assembly Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#notes" class="nav-link">Notes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="northstar-release-1">Northstar Release 1</h1>
+<p>The following pages contain the original documentation for the first release of Project Northstar, the latest release is here: <a href="../../leap-motion-r3/">Northstar 3.1</a></p>
+<h1 id="initial-release-assembly-guide">Initial Release Assembly Guide</h1>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This Assembly Guide is for Release 1 of the headset, for the most recent release <a href="../../leap-motion-r3/headset-assembly/">click here</a></p>
+</div>
+<p>The purpose of this guide is to instruct, with access to a few common tools, how to make a Project North Star reference AR headset. It's aimed to be accessible and inexpensive to build, using as many off-the-shelf components and 3D-printed parts as possible. For now, several key components are custom-made (e.g. the reflectors, display driver board, and our custom ultra-wide hand tracking module), but we know that together we can find make some work-arounds and alternatives.</p>
+<p>Although not a complete AR solution, Project North Star points to a future where the physical and virtual worlds blend together into a single magical experience. With it we hope to gather like-minded people and build that future together.</p>
+<h2 id="overview">Overview</h2>
+<p>The headset is made up of three modular assemblies: the optics bracket, the headgear with hinges, and the halo (which contains all the electronics). This configuration has been very useful as we iterated on different parts. The parts are 3D printed using consumer grade 3D printers and materials, with a couple parts from <a href="https://www.mcmaster.com/">McMaster-Carr</a>. The goal is to have an easily reproduced AR headset that anyone can put together.</p>
+<p>Ignoring the reflectors, you'll need to 3D print roughly 20+ hours of parts and cut, drill and tap aluminum bar stock. Nothing expensive or major requiring a machine shop, but a few tools are expected. Read below for the list.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We are exploring different possibilities for individuals to obtain reflectors.</p>
+</div>
+<h3 id="download-3d-cad-files"><a href="https://github.com/leapmotion/ProjectNorthStar/tree/master/Mechanical/North%20Star%203D%20Files">Download 3D CAD files</a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>These parts and this guide are still a work in progress_</p>
+</div>
+<h2 id="tools-materials">Tools &amp; Materials</h2>
+<ul>
+<li>3D printer and software: <a href="https://www.makergear.com/products/m2">MakerGear M2</a>, <a href="https://www.simplify3d.com/">Simplify3D</a>, print profiles: <a href="https://www.thingiverse.com/thing:269637">Rsilver's M2 Simplify 3D optimized profiles, Thingiverse</a></li>
+<li>Filament: <a href="https://www.amazon.com/eSUN-1-75mm-Printer-Filament-2-2lbs/dp/B01EKEMB7Q">eSun PLA+, Amazon</a></li>
+<li>T6 Torx driver for thin-plastic screws <a href="https://www.mcmaster.com/#37455a34/=1debsao">Torx T6 driver, McMaster</a></li>
+<li>Phillips driver for M2.5 screws <a href="https://www.amazon.com/TEKTON-26663-Phillips-4-Inch-Screwdriver/dp/B014US1NS0/">Screwdriver Phillips #1 size, Amazon</a></li>
+<li>M2.5 Screw thread tap *: <a href="https://www.mcmaster.com/#26475a33">M2.5 x 0.45 mm Thread Tap, McMaster</a></li>
+<li>Hot glue gun (on low setting &lt; 40W), for reflectors <a href="https://www.amazon.com/ccbetter-Upgraded-Removable-Anti-hot-Flexible/dp/B01178RVI2/">Hot glue gun, Amazon</a></li>
+<li>Latex or Nitrile gloves (minimize fingerprints on optical components) <a href="https://www.amazon.com/MedPride-Powder-Free-Nitrile-Gloves-Large/dp/B00GS8VGP6/">Sterile gloves, Amazon</a></li>
+<li>Optional: These are our favorite 3D print finishing tools (<a href="https://www.amazon.com/gp/product/B00FZPDG1K/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">wire cutters</a>, <a href="https://www.amazon.com/Octave-Tool-Kit-3D-Printer/dp/B00ASFRSP2">chisel</a>, <a href="https://www.amazon.com/Needle-HIGHEST-QUALITY-Hardened-Strength/dp/B01MRCZKIX">file</a>, <a href="https://www.amazon.com/3M-Wetordry-Sandpaper-11-Inch-Assorted/dp/B001449TPS">sand paper</a>, <a href="https://www.amazon.com/gp/product/B06XG1FY8P/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">hand drill</a>, etc.)</li>
+</ul>
+<h2 id="bom">BOM</h2>
+<p><img alt="" src="../../img/BOMReference.png" /></p>
+<table>
+<thead>
+<tr>
+<th align="left">BOM Ref.</th>
+<th align="left">Part Name</th>
+<th align="left">Quantity</th>
+<th align="left">Procurement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">A</td>
+<td align="left">Leap Motion Controller</td>
+<td align="left">1</td>
+<td align="left"><a href="https://www.amazon.com/Leap-Motion-Controller-Packaging-Software/dp/B00HVYBWQO">1</a></td>
+</tr>
+<tr>
+<td align="left">B</td>
+<td align="left">Display Driver</td>
+<td align="left">1</td>
+<td align="left">TBD</td>
+</tr>
+<tr>
+<td align="left">C</td>
+<td align="left">3.5-inch 120Hz LCDs</td>
+<td align="left">2</td>
+<td align="left">TBD</td>
+</tr>
+<tr>
+<td align="left">D</td>
+<td align="left">Acrylic reflectors</td>
+<td align="left">2</td>
+<td align="left"><a href="https://www.smart-prototyping.com/Project-North-Star-Lens">1</a></td>
+</tr>
+<tr>
+<td align="left">E</td>
+<td align="left">Headgear</td>
+<td align="left">1</td>
+<td align="left"><a href="https://www.amazon.com/Miller-Headgear-Generation-Welding-Helmets/dp/B073QY6B7Y">1</a> or <a href="https://www.amazon.com/gp/product/B003V5KSNK/ref=oh_aui_detailpage_o05_s00?ie=UTF8&amp;psc=1">2</a></td>
+</tr>
+<tr>
+<td align="left">F</td>
+<td align="left">Self-tapping screws for plastic</td>
+<td align="left">1 pk</td>
+<td align="left"><a href="https://www.mcmaster.com/#96817a209">1</a></td>
+</tr>
+<tr>
+<td align="left">G</td>
+<td align="left">Machine screws M2.5 x 6mm</td>
+<td align="left">1 pk</td>
+<td align="left"><a href="https://www.mcmaster.com/#92005a066">1</a></td>
+</tr>
+<tr>
+<td align="left">H</td>
+<td align="left">Hinge fasteners, #10-32</td>
+<td align="left">1 pk ea.</td>
+<td align="left"><a href="https://www.mcmaster.com/#92949a270">1</a> and <a href="https://www.mcmaster.com/#91831a411">1</a></td>
+</tr>
+<tr>
+<td align="left">I</td>
+<td align="left">Al. bar stock 10x3mm</td>
+<td align="left">12-in [300 mm]</td>
+<td align="left"><a href="https://www.mcmaster.com/#9146t21">1</a></td>
+</tr>
+<tr>
+<td align="left">J</td>
+<td align="left">3D printed parts</td>
+<td align="left">-</td>
+<td align="left"><a href="https://github.com/leapmotion/ProjectNorthStar/tree/master/Mechanical/North%20Star%203D%20Files">DIY</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="a-leap-motion-controller">A: Leap Motion Controller</h3>
+<p>Depending on which Leap Motion hand tracking module you use, it will determine which sets of 3D prints you'll need. Check the 3D printing section for more details.</p>
+<p>Retail Leap Motion Controller - <a href="https://www.amazon.com/Leap-Motion-Controller-Packaging-Software/dp/B00HVYBWQO/ref=sr_1_2?s=industrial&amp;ie=UTF8&amp;qid=1529622781&amp;sr=8-2&amp;keywords=leap+motion">Amazon</a><br />
+<em>-or-</em><br />
+Custom ultra-wide tracking module</p>
+<h3 id="b-leap-motion-display-driver">B: Leap Motion display driver</h3>
+<p><em>See the</em> <a href="https://github.com/leapmotion/ProjectNorthStar/tree/master/Electronics"><em>Electronics folder</em></a> <em>in the main repo for display driver schematics and firmware.</em></p>
+<h3 id="c-boe-35-inch-120hz-lcds-vs035zsm-nw0-35inch-ltps-14401600-module">C: BOE 3.5-inch 120Hz LCDs VS035ZSM-NW0 - 3.5inch LTPS 1440*1600 Module</h3>
+<p>{% hint style="info]()
+BOE produces 3.5-inch 1440*1600 modules and refers to them as VS035ZSM-NW0; however they are not listed publicly because they are only sold in large quantities. The panel listed as VS035ZSM-<strong>NH0</strong> is no longer in production nor have we tested it with our driver board. On a broad level, it is possible to make the hardware more accessible through bulk orders of the core components, which is currently under exploration.
+{% endhint %}</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_0701.JPG" />
+<img alt="" src="../../img/IMG_0701.JPG" /></p>
+<h3 id="d-reflectors-aka-combiners-lenses">D: Reflectors (aka combiners, lenses)</h3>
+<p>What may seem intimidating at first is conceptually very simple. One property of elipsoids is that all the light emitted from one focus reflects off its surface and focuses it to the second focus! Amazing. Therefore, to figure out the section of elipsoid needed in our AR application, we traced a ray backwards from the second focus, through a cellphone-sized.</p>
+<p>The resultant elipsoid is defined by the following dimensions, chosen to allow a range of 3-to-5-inch LCD panels to be placed near the eye. The perimeter of the elipsoid section was decided on empirically by minimizing distortion with a larger prototype, then cropping to the reflected image. This large reflector was roughly 120x120mm, and the final ended up being around 75x75mm.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/ElipsoidReflector.png" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/reflectorDimensions.png" /></p>
+<p>The reflectors are diamond-turned and milled from PMMA (a.k.a. acrylic). The outside surface needs an anti-reflective coating to prevent a secondary reflection from degrading the image. Indoors and subjectively, 50-50% (transmissive-reflective) anti-reflective coating provided the best results for us.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/reflectorOverview.png" /></p>
+<p>From the elipsoid definition, the reflectors need to be rotated and translated into position. We define the origin point as the midpoint between the two reflector foci, which should line up with the user's pupils:</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/OpticsTransformations.png" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/ReflectorEnd.png" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/ReflectorsFront.png" /></p>
+<h3 id="e-oem-headgear-replacement">E: OEM Headgear replacement</h3>
+<p>Light and adjustable with rigid mount points. Several welder's mask headgear vendors were tested, but most failed to be rigid or comfortable for our applications. Their general design is made of injection-molded plastic features that tighten onto either side of a welding faceshield. Although it may be desireable for those features to be flexible and compliant for welding, our heavier AR assemblies caused the headgear to flex and/or dig into the users' head. Ouch. The following Miller branded model's had very little flex and generally comfortable. It really helps they're lightweight as well.</p>
+<p>These two specific generations of headgears yielded the best results quickly, mounting evolving electronics on the most varied heads. The amount of adjustment points makes it work for the large majority of users.</p>
+<p>Welding Replacement Headgear - <a href="https://www.amazon.com/Miller-Headgear-Generation-Welding-Helmets/dp/B073QY6B7Y">Miller Generation IV for T94 Headgear, Amazon</a> Part #260486 or <a href="https://www.amazon.com/Miller-Electric-256174-Headgear-Helmet/dp/B00826AM7A">Miller Replacement Headgear, Amazon </a>Part #256174</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/millereplacement.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/millergen4.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/headgearExample.png" /></p>
+<p><strong>Alternative:</strong></p>
+<p>The 3M Speedglas Utility headgear was the first headgear we used for North Star prototypes. At the time, the optics would bounce around, causing the reflected image to shake wildly as we moved around. We minimized this by switching to the stiffer Miller headgear and continued other improvements for several months. However, the 3M headgear was sorely missed, as it was simple to put-on and less intimidating for demos. Since then we added cheek alignment features, which solved the image bounce, and therefore makes sense to bring back this design as a supplement to the release headgear. The headgear and optics are interchangeable, only the hinges need to match the headgear.</p>
+<p>Welding Replacement Headgear - <a href="https://www.amazon.com/gp/product/B003V5KSNK/ref=oh_aui_detailpage_o05_s00?ie=UTF8&amp;psc=1">3M Speedglas Welding Helmet Headband, Amazon</a></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/3MSpeedglas.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/headgearComparison.png" /></p>
+<h3 id="f-qty-6-delta-pt-screws-m20-x-6-mm-long-thread-forming-screws-for-thin-plastic-mcmaster-96817a209">F: [Qty: 6] Delta PT screws M2.0 x 6 mm Long "Thread-Forming Screws for Thin Plastic" - <a href="https://www.mcmaster.com/#96817a209">McMaster #96817a209</a></h3>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/96817a209l.gif" /></p>
+<h3 id="g-qty12-m25-x-045-mm-thread-6-mm-long-steel-pan-head-phillips-screw-mcmaster-92005a066">G: [Qty:12] M2.5 x 0.45 mm Thread, 6 mm Long "Steel Pan Head Phillips Screw" - <a href="https://www.mcmaster.com/#92005a066">McMaster #92005a066</a></h3>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/92005a066l.gif" /></p>
+<h3 id="h-qty2-pairs-hinge-rotation-fasteners">H: [Qty:2 pairs] Hinge rotation fasteners</h3>
+<p>Machine screws, 10-32 Thread Size, 7/8" Long "Steel Button Head Hex Drive Screw" - <a href="https://www.mcmaster.com/#92949a270">McMaster #92949a270</a><br />
+Matching nuts, 10-32 Thread Size, Stainless "Steel Nylon-Insert Locknut" - <a href="https://www.mcmaster.com/#91831a411">McMaster #91831a411</a></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/92949a270l.gif" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/91831a411l.gif" /></p>
+<h3 id="i-qty2-3x10mm-al-bar-stock-cut-to-approximately-150mm-length-mcmaster-92005a066">I: [Qty:2] 3x10mm Al. bar stock cut to approximately 150mm length <a href="https://www.mcmaster.com/#9146t21">McMaster #92005a066</a></h3>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/9146T213p1.png" /></p>
+<p>Cut, drill, and tap the slides to roughly 150mm (6 inches) in length. We used a Dremel rotary tool to cut the bar stock to length, and transferred the hole pattern from the Halo 3D print using a <a href="https://www.amazon.com/gp/product/B008DXYOLC/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">transfer punch.</a> The two holes are tapped using <a href="https://www.mcmaster.com/#26475a33">M2.5 x 0.45 mm Thread Tap, McMaster</a></p>
+<p>Cost and speed being the most important design parameters, this DIY method performs as well as a machined part at 100x lower price. Without access to a CNC metal workshop it's surprisingly expensive to have 1-2 parts machined.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_5222.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_4481.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/slideDimensions.png" /></p>
+<h3 id="j-3d-printed-parts">J: 3D Printed Parts</h3>
+<p>Each component has suggested orientation and print settings for the best performance and least print time. Proceed to the 3D print section for information on each print: <a href="https://leapmotion.github.io/ProjectNorthStar/3dprints.html">3D Printing Part Reference</a></p>
+<h2 id="assembly-steps">Assembly Steps</h2>
+<p>The NorthStar headset has three main sub-assemblies: the optics bracket, the electronics tray, and the adjustable headgear.</p>
+<h3 id="miller-headgear"><strong>Miller headgear</strong></h3>
+<p><em>(see below for alternate headgear with torsion hinge)</em></p>
+<p>1) Verify the aluminum bar stock slides without resistance inside the 3D printed hinges. Tip: Repeatedly sliding the bar stock quickly through a new hinge clears out any obtrusive burs, and the heat generated shapes the plastic.</p>
+<p>2) Disassemble old hinges from headgear, set aside the o-rings:</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6541.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6539.JPG" /></p>
+<p>3) Assemble new hinge as shown below, using screw/nut <code>H</code>. Tighten until the o-ring is still visible and the hinge has considerable resistance turning.</p>
+<p>4) Slide hinge onto headgear, aligning with front of track. Lock in place using screw <code>F</code></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6542.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6550.JPG" /></p>
+<h3 id="alternate-3m-speedglas-headgear">Alternate: <strong>3M Speedglas headgear</strong></h3>
+<p>1) Remove the mounting assemblies on both sides of the headgear, enlarge hole to 18mm. We used a stepped drill to enlarge the hole, a little larger than the diameter of the spring we’re using.</p>
+<p>2) Place matching spring into rear housing, fasten close, and trim spring legs.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6758.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6759.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6762.jpg" /></p>
+<p>3) Place the outer hinge housing onto the spring, in the orientation shown. Using the perimeter fasteners, clamp down onto the spring leg, aligning it with the cutout.</p>
+<p>4) Fasten the large center locknut and screw, adjusting it for the desired resistance. Trim the remaining spring leg.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6763.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6764.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6766.jpg" /></p>
+<h3 id="electronics-tray"><strong>Electronics Tray</strong></h3>
+<p>5) Fasten display driver <code>B</code> to 3D printed bracket using <code>F</code> screws x 3. Fasten hand tracking module <code>A</code> to 3D print using screws from its enclosure</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_5446.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_5873.JPG" /></p>
+<p>6) Place USB cable into USB strain relief, and fasten using <code>F</code> screws x 2 to electronics tray</p>
+<p>7) Adjust USB cable until the flex connector is aligned with connector and doesn't strain</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_7105.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_8951.JPG" /></p>
+<h3 id="optics-bracket">Optics Bracket</h3>
+<p>8) Fasten electronics tray to halo using 2 screws <code>F</code></p>
+<p>9) Fasten optics bracket to the halo using 6 screws <code>F</code></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_1653.JPG" /></p>
+<p>10) Fasten displays and facial interfaces into optics bracket using 4 screws per side <code>G</code> (8 total).</p>
+<p>11) Carefully connect the display flex connector to the driver board</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6573.jpg" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_8165.JPG" /></p>
+<p>12) Fasten lid to halo using 4 screws <code>F</code> from the bottom as shown</p>
+<p>13) Secure wires to lid using cable-ties through the anchors</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_1849.JPG" /></p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_1981.JPG" /></p>
+<p>14) Verify reflectors align with tabs in optics bracket, scrape away offending plastic if not. Using hot-glue, "tack" the reflectors into the halo bracket. Be careful not to use too much and be quick enough that the glue doesn't solidify before the reflectors are in place.</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_6585.jpg" /></p>
+<h3 id="final-assembly">Final Assembly</h3>
+<p>15) Fasten slides to assembled optics bracket using 4 x <code>G</code> screws</p>
+<p><img alt="" src="https://leapmotion.github.io/ProjectNorthStar/imgs/IMG_7997.JPG" /></p>
+<p>16) Make adjustments for user's head.</p>
+<h2 id="notes">Notes</h2>
+<p>{% hint style="info]()
+Not optimal for users with glasses
+{% endhint %}</p>
+<p>{% hint style="info]()
+Electronics bracket hard to access/service once installed
+{% endhint %}</p>
+<p>{% hint style="info]()
+No wire management for display flex connectors
+{% endhint %}</p>
+<p>{% hint style="info]()
+Imbalanced weight due to cables: USB, display port, and power
+{% endhint %}</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

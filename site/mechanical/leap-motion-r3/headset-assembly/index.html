@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../../img/favicon.ico">
+        <title>Assembly Guide - Project North Star</title>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+
+        <script src="../../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../../..">Project North Star</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../hi/gi" class="dropdown-item">Test</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Mechanical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 3</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../" class="dropdown-item">Getting Started</a>
+</li>
+            
+<li>
+    <a href="../headset-bom.md" class="dropdown-item">Bill of Materials</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active">Assembly Guide</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 1</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../leap-motion-v1/v1-assembly-guide.md" class="dropdown-item">Assembly Guide</a>
+</li>
+            
+<li>
+    <a href="../../leap-motion-v1/v1-3d-print-reference.md" class="dropdown-item">3D Print Reference</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../smart-prototyping-kits/" class="dropdown-item">Smart Prototyping Kits</a>
+</li>
+                                    
+<li>
+    <a href="https://exiii.jp/2018/07/25/project_north_star_en/" class="dropdown-item">Exii Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../software/getting-started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../../software/steamvr/" class="dropdown-item">SteamVR</a>
+</li>
+                                    
+<li>
+    <a href="../../../software/" class="dropdown-item">FAQ</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Calibration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../calibration/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../../calibration/calibration-v1/" class="dropdown-item">Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../../calibration/calibration-v2/" class="dropdown-item">Version 2</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../../electronics/electronics/" class="dropdown-item">Electronics</a>
+</li>
+                                    
+<li>
+    <a href="../../../electronics/firmware/" class="dropdown-item">Firmware</a>
+</li>
+                                    
+<li>
+    <a href="../../../electronics/schematics/" class="dropdown-item">Schematics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community Links <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="https://discordapp.com/invite/NghjdX7" class="dropdown-item">Discord</a>
+</li>
+                                    
+<li>
+    <a href="https://twitter.com/search?q=%23ProjectNorthStar" class="dropdown-item">Twitter</a>
+</li>
+                                    
+<li>
+    <a href="https://www.reddit.com/r/ProjectNorthStar/" class="dropdown-item">Reddit</a>
+</li>
+                                    
+<li>
+    <a href="https://forums.leapmotion.com/t/project-north-star/7071" class="dropdown-item">Leap Motion Forums</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Leap Motion Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/tag/north-star/" class="dropdown-item">Blog</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/bending-reality-north-stars-calibration-system/" class="dropdown-item">Bending Reality North Star’s Calibration System</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-3/" class="dropdown-item">Project North Star Mechanical Update 3</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-and-calibration-update-3-1/" class="dropdown-item">Project North Star Mechanical and Calibration Update 3.1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-1/" class="dropdown-item">Project North Star Mechanical Update 1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/north-star-open-source/" class="dropdown-item">Project North Star is Now Open Source</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/our-journey-to-the-north-star/" class="dropdown-item">Our Journey to the North Star</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/northstar/" class="dropdown-item">Unveiling Project North Star</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../smart-prototyping-kits/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#release-3-assembly-guide" class="nav-link">Release 3 Assembly Guide</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#bom" class="nav-link">BOM</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#000-000" class="nav-link">000-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#100-000" class="nav-link">100-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#110-000" class="nav-link">110-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#130-000" class="nav-link">130-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#111-000" class="nav-link">111-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#113-000" class="nav-link">113-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#120-000" class="nav-link">120-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#121-000" class="nav-link">121-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#131-000" class="nav-link">131-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#200-000" class="nav-link">200-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#210-000" class="nav-link">210-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#230-000" class="nav-link">230-000</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#900-005" class="nav-link">900-005</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="release-3-assembly-guide">Release 3 Assembly Guide</h1>
+<p>You can source all your parts from <a href="https://www.smart-prototyping.com/AR-VR-MR-XR/AR-VR-Kits-Bundles">Combine Reality</a>'s kits, or if you'd like to source your parts from elsewhere, or want replacement parts they are linked below.</p>
+<p>A video guide from <a href="https://twitter.com/supertask_jp">Tasuku Takahashi</a> is available below, it's best to supplement the written documentation with this video. If you run into problems or have questions, feel free to reach out on the <a href="https://discord.gg/9TtZhb4">discord</a>.</p>
+<p><a href="https://www.youtube.com/watch?v=J-OowCNcR8A">Link</a></p>
+<h2 id="bom">BOM</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Part number</th>
+<th align="left">Quantity</th>
+<th align="left">Description</th>
+<th align="left">Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">#110-001</td>
+<td align="left">1</td>
+<td align="left">OPTICS BRACKET MAIN BODY</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#110-002</td>
+<td align="left">2</td>
+<td align="left">SLIDE ENDCAP</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#111-001</td>
+<td align="left">0</td>
+<td align="left">LEFT DISPLAY TRAY - 75cm FOCAL</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#112-001</td>
+<td align="left">0</td>
+<td align="left">RIGHT DISPLAY TRAY - 75cm FOCAL</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#111-002</td>
+<td align="left">1</td>
+<td align="left">LEFT DISPLAY TRAY - 25cm FOCAL</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#112-002</td>
+<td align="left">1</td>
+<td align="left">RIGHT DISPLAY TRAY - 25cm FOCAL</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#113-001</td>
+<td align="left">1</td>
+<td align="left">LEFT ROTATION ADJUSTMENT SLIDE MOUNT</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#114-001</td>
+<td align="left">1</td>
+<td align="left">RIGHT ROTATION ADJUSTMENT SLIDE MOUNT</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#115-001</td>
+<td align="left">1</td>
+<td align="left">FOREHEAD REST BASE SHAPE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#120-001</td>
+<td align="left">1</td>
+<td align="left">HALO MAIN BODY</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#120-002</td>
+<td align="left">1</td>
+<td align="left">HALO LID</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#121-001</td>
+<td align="left">1</td>
+<td align="left">HALO ELECTRONICS HOLDER</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#121-002</td>
+<td align="left">1</td>
+<td align="left">HALO ELECTRONICS DP PORT HOLDER</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#130-001</td>
+<td align="left">0</td>
+<td align="left">SIMPLIFIED OPTICS MAIN BODY</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#131-001</td>
+<td align="left">0</td>
+<td align="left">SIMPLIFIED DRIVER BOARD MOUNT</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#131-002</td>
+<td align="left">0</td>
+<td align="left">SIMPLIFIED DP PORT HOLDER</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#210-001</td>
+<td align="left">1</td>
+<td align="left">FOREHEAD MAIN STRUCTURE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#210-002</td>
+<td align="left">1</td>
+<td align="left">FOREHEAD HEADGEAR SPAN</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#210-003</td>
+<td align="left">2</td>
+<td align="left">FOREHEAD HINGE CAP</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#210-004</td>
+<td align="left">2</td>
+<td align="left">FOREHEAD HINGE BASE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#220-001</td>
+<td align="left">2</td>
+<td align="left">REAR HINGE BASE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#220-002</td>
+<td align="left">2</td>
+<td align="left">REAR HINGE CAP</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#230-001</td>
+<td align="left">1</td>
+<td align="left">LEFT SIDE MAIN SPAN WITH SLIDE BRAKE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#230-002</td>
+<td align="left">1</td>
+<td align="left">LEFT BRAKE HOUSING</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#230-003</td>
+<td align="left">1</td>
+<td align="left">LEFT BRAKE BUTTON</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#230-004</td>
+<td align="left">1</td>
+<td align="left">LEFT CABLE GUIDE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#240-001</td>
+<td align="left">1</td>
+<td align="left">RIGHT SIDE MAIN SPAN WITH SLIDE BRAKE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#240-002</td>
+<td align="left">1</td>
+<td align="left">RIGHT BRAKE HOUSING</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#240-003</td>
+<td align="left">1</td>
+<td align="left">RIGHT BRAKE BUTTON</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#240-004</td>
+<td align="left">1</td>
+<td align="left">RIGHT CABLE GUIDE</td>
+<td align="left">3DPRINT</td>
+</tr>
+<tr>
+<td align="left">#500-001</td>
+<td align="left">1</td>
+<td align="left">REFLECTORS</td>
+<td align="left"><a href="https://www.smart-prototyping.com/AR-VR-MR-XR/AR-VR-Module/Project-North-Star-Lenses-Single-Piece-Set-v3_1-SPC">CombineReality</a></td>
+</tr>
+<tr>
+<td align="left">#630-001</td>
+<td align="left">1</td>
+<td align="left">0.304-in OD TORSION SPRING 180 DEG. L-HAND WOUND</td>
+<td align="left"><a href="https://www.mcmaster.com/9271k6">McMaster #9271K603</a></td>
+</tr>
+<tr>
+<td align="left">#630-002</td>
+<td align="left">1</td>
+<td align="left">0.304-in OD TORSION SPRING 180 DEG. R-HAND WOUND</td>
+<td align="left"><a href="https://www.mcmaster.com/9271k668">McMaster #9271K668</a></td>
+</tr>
+<tr>
+<td align="left">#640-001</td>
+<td align="left">28</td>
+<td align="left">M2.5x0.45 6mm LONG STEEL FLAT HEAT SCREW 90 DEG CS</td>
+<td align="left"><a href="https://www.mcmaster.com/91420a016">McMaster #91420a016</a></td>
+</tr>
+<tr>
+<td align="left">#640-002</td>
+<td align="left">2</td>
+<td align="left">M4x0.7 20mm STEEL BUTTON HEAD SOCKET SCREW</td>
+<td align="left"><a href="https://www.mcmaster.com/91239a152">McMaster #91239a152</a></td>
+</tr>
+<tr>
+<td align="left">#650-001</td>
+<td align="left">36</td>
+<td align="left">M2x8mm LONG THREAD-FORMING SCREWS FOR PLASTIC</td>
+<td align="left"><a href="https://www.mcmaster.com/96817a212">McMaster #96817a212</a></td>
+</tr>
+<tr>
+<td align="left">#660-001</td>
+<td align="left">2</td>
+<td align="left">M4x0.7mm ZINC PLATED NYLON INSERT HEX LOCK NUT</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B015A3CV5S/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">Amazon</a></td>
+</tr>
+<tr>
+<td align="left">#670-001</td>
+<td align="left">2</td>
+<td align="left">5/16 ID x 3/4 OD x 1/16in  NEOPRENE WASHER</td>
+<td align="left"><a href="https://www.amazon.com/s?k=5%2F16+ID+x+3%2F4+OD+x+1%2F16in+NEOPRENE+WASHER&amp;i=industrial&amp;ref=nb_sb_noss">Amazon</a></td>
+</tr>
+<tr>
+<td align="left">#690-001</td>
+<td align="left">21</td>
+<td align="left">M2.5x0.45  3.4mm LONG HEAT-SET INSERT FOR PLASTICS</td>
+<td align="left"><a href="https://www.mcmaster.com/94180a321">McMaster #94180a321</a></td>
+</tr>
+<tr>
+<td align="left">#700-002</td>
+<td align="left">2</td>
+<td align="left">BOE 3.5-in VS035ZSM-NW0 120HZ LTPS 1440*1600 Module</td>
+<td align="left"><a href="https://www.smart-prototyping.com/Display-for-Project-North-Star-3_5inch-1440x1600-pixels">Polaris AR</a></td>
+</tr>
+<tr>
+<td align="left">#800-001</td>
+<td align="left">1</td>
+<td align="left">DISPLAY DRIVER BOARD</td>
+<td align="left"><a href="https://www.smart-prototyping.com/Project-North-Star-Display-Driver-Board">Polaris AR</a></td>
+</tr>
+<tr>
+<td align="left">#900-001</td>
+<td align="left">1</td>
+<td align="left">MILLER WELDING GEN. III HEADGEAR</td>
+<td align="left"><a href="https://store.cyberweld.com/miwehegeiiir.html">CyberWeld</a></td>
+</tr>
+<tr>
+<td align="left">#900-002</td>
+<td align="left">1</td>
+<td align="left">2mm THICK SELF-STICK ANTI-SKID RUBBER</td>
+<td align="left"><a href="https://www.amazon.com/gp/product/B01K7JFXAA">Amazon</a></td>
+</tr>
+<tr>
+<td align="left">#900-003</td>
+<td align="left">1</td>
+<td align="left">FOAM FOREHEAD PADDING</td>
+<td align="left"><a href="https://www.joann.com/airtex-0.5-16-oz.-high-density-foam/2180313.html#start=1">Joann</a></td>
+</tr>
+<tr>
+<td align="left">#900-004</td>
+<td align="left">1</td>
+<td align="left">FOAM BACKED FABRIC</td>
+<td align="left"><a href="https://www.joann.com/headliner-utility-fabric-55-black/3496072.html">Joann</a></td>
+</tr>
+<tr>
+<td align="left">#900-005</td>
+<td align="left">1</td>
+<td align="left">3x10x165mm 6061 AL. BAR SLIDE</td>
+<td align="left"><a href="https://www.mcmaster.com/9146t21">McMaster #9146t21</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="000-000">000-000</h2>
+<p><img alt="North Star Release 3" src="../../../assets/assm-drawing-north-star-release-3-01.png" /></p>
+<h2 id="100-000">100-000</h2>
+<p><img alt="Optics Assembly" src="../../../assets/assm-drawing-north-star-release-3-02.png" /></p>
+<h2 id="110-000">110-000</h2>
+<p><img alt="Hinged Optics Bracket Assembly" src="../../../assets/assm-drawing-north-star-release-3-03.png" /></p>
+<h2 id="130-000">130-000</h2>
+<p><img alt="Simplified Optics Module Assembly" src="../../../assets/assm-drawing-north-star-release-3-04.png" /></p>
+<h2 id="111-000">111-000</h2>
+<p><img alt="Left Display Assembly" src="../../../assets/assm-drawing-north-star-release-3-05.png" /></p>
+<h2 id="113-000">113-000</h2>
+<p><img alt="Left Rotation Slide Mount Assembly" src="../../../assets/assm-drawing-north-star-release-3-06.png" /></p>
+<h2 id="120-000">120-000</h2>
+<p><img alt="Halo Electronics Module Assembly" src="../../../assets/assm-drawing-north-star-release-3-07.png" /></p>
+<h2 id="121-000">121-000</h2>
+<p><img alt="Electronics Bay Assembly" src="../../../assets/assm-drawing-north-star-release-3-08.png" /></p>
+<h2 id="131-000">131-000</h2>
+<p><img alt="Simplified Electronics Bay Assembly" src="../../../assets/assm-drawing-north-star-release-3-09.png" /></p>
+<h2 id="200-000">200-000</h2>
+<p><img alt="Headgear Assembly" src="../../../assets/assm-drawing-north-star-release-3-10.png" /></p>
+<h2 id="210-000">210-000</h2>
+<p><img alt="Padded Forehead Assembly" src="../../../assets/assm-drawing-north-star-release-3-11.png" /></p>
+<h2 id="230-000">230-000</h2>
+<p><img alt="Left Brake Assembly" src="../../../assets/assm-drawing-north-star-release-3-12.png" /></p>
+<h2 id="900-005">900-005</h2>
+<p><img alt="3x10x165mm 6061 Aluminum Bar Slide" src="../../../assets/assm-drawing-north-star-release-3-13.png" /></p>
+<p><img alt="" src="../../../assets/assm-drawing-north-star-release-3-14.png" /></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../../js/base.js" defer></script>
+        <script src="../../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

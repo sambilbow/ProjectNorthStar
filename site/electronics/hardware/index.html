@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Bill of Materials-Project North Star - Project North Star</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Project North Star</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../hi/gi" class="dropdown-item">Test</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Mechanical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../mechanical/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 3</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../mechanical/leap-motion-r3/" class="dropdown-item">Getting Started</a>
+</li>
+            
+<li>
+    <a href="../../mechanical/leap-motion-r3/headset-bom.md" class="dropdown-item">Bill of Materials</a>
+</li>
+            
+<li>
+    <a href="../../mechanical/leap-motion-r3/headset-assembly/" class="dropdown-item">Assembly Guide</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 1</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../mechanical/leap-motion-v1/v1-assembly-guide.md" class="dropdown-item">Assembly Guide</a>
+</li>
+            
+<li>
+    <a href="../../mechanical/leap-motion-v1/v1-3d-print-reference.md" class="dropdown-item">3D Print Reference</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="../../mechanical/smart-prototyping-kits/" class="dropdown-item">Smart Prototyping Kits</a>
+</li>
+                                    
+<li>
+    <a href="https://exiii.jp/2018/07/25/project_north_star_en/" class="dropdown-item">Exii Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../mechanical/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../software/getting-started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../software/steamvr/" class="dropdown-item">SteamVR</a>
+</li>
+                                    
+<li>
+    <a href="../../software/" class="dropdown-item">FAQ</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Calibration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../calibration/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../calibration/calibration-v1/" class="dropdown-item">Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../calibration/calibration-v2/" class="dropdown-item">Version 2</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../electronics/" class="dropdown-item">Electronics</a>
+</li>
+                                    
+<li>
+    <a href="../firmware/" class="dropdown-item">Firmware</a>
+</li>
+                                    
+<li>
+    <a href="../schematics/" class="dropdown-item">Schematics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community Links <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="https://discordapp.com/invite/NghjdX7" class="dropdown-item">Discord</a>
+</li>
+                                    
+<li>
+    <a href="https://twitter.com/search?q=%23ProjectNorthStar" class="dropdown-item">Twitter</a>
+</li>
+                                    
+<li>
+    <a href="https://www.reddit.com/r/ProjectNorthStar/" class="dropdown-item">Reddit</a>
+</li>
+                                    
+<li>
+    <a href="https://forums.leapmotion.com/t/project-north-star/7071" class="dropdown-item">Leap Motion Forums</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Leap Motion Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/tag/north-star/" class="dropdown-item">Blog</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/bending-reality-north-stars-calibration-system/" class="dropdown-item">Bending Reality North Star’s Calibration System</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-3/" class="dropdown-item">Project North Star Mechanical Update 3</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-and-calibration-update-3-1/" class="dropdown-item">Project North Star Mechanical and Calibration Update 3.1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-1/" class="dropdown-item">Project North Star Mechanical Update 1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/north-star-open-source/" class="dropdown-item">Project North Star is Now Open Source</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/our-journey-to-the-north-star/" class="dropdown-item">Our Journey to the North Star</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/northstar/" class="dropdown-item">Unveiling Project North Star</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#bill-of-materials-project-north-star" class="nav-link">Bill of Materials-Project North Star</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="bill-of-materials-project-north-star">Bill of Materials-Project North Star</h1>
+<table>
+<thead>
+<tr>
+<th align="left">Designator</th>
+<th align="left">Description</th>
+<th align="left">Quantity</th>
+<th align="left">Manufacturer</th>
+<th align="left">Manufacturer P/N</th>
+<th align="left">Supplier</th>
+<th align="left">Supplier P/N</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">C2, C3, C4, C11, C12, C13, C15, C17, C19, C21, C23, C25</td>
+<td align="left">Capacitor, 0.1uF, 10V, 10%, 0201, Ceramic, X5R</td>
+<td align="left">12</td>
+<td align="left">Murata</td>
+<td align="left">GRM033R61A104KE15D</td>
+<td align="left">Mouser</td>
+<td align="left">581-81-GRM033R61A104KE5D</td>
+</tr>
+<tr>
+<td align="left">C5, C6, C10, C14, C16, C18, C20, C22, C24, C35, C37, C40, C41, C55, C56, C57, C60</td>
+<td align="left">Capacitor, 1.0uF, 10V, 10%, 0402, Ceramic, X5R</td>
+<td align="left">17</td>
+<td align="left">TDK</td>
+<td align="left">C1005X5R1A105K050BB</td>
+<td align="left">Digikey</td>
+<td align="left">445-4114-6-ND</td>
+</tr>
+<tr>
+<td align="left">C7, C8</td>
+<td align="left">Capacitor, 6pF, 50V, 0.1pF, 0201, Ceramic, C0G(NP0)</td>
+<td align="left">2</td>
+<td align="left">Murata</td>
+<td align="left">GRM0335C1H6R0BA01D</td>
+<td align="left">Digikey</td>
+<td align="left">490-11339-1-ND</td>
+</tr>
+<tr>
+<td align="left">C9</td>
+<td align="left">Capacitor, 2.2uF, 6.3V, 20%, 0402, Ceramic, X5R</td>
+<td align="left">1</td>
+<td align="left">TDK</td>
+<td align="left">C1005X5R0J225M050BC</td>
+<td align="left">Digikey</td>
+<td align="left">445-4999-1-ND</td>
+</tr>
+<tr>
+<td align="left">C26, C27, C49, C50</td>
+<td align="left">Capacitor, 18pF, 50V, 2%, 0201, Ceramic, C0G(NP0)</td>
+<td align="left">4</td>
+<td align="left">Murata</td>
+<td align="left">GRM0335C1H180GA01D</td>
+<td align="left">Digikey</td>
+<td align="left">490-11310-1-ND</td>
+</tr>
+<tr>
+<td align="left">C28, C29, C30, C31, C32, C33, C38, C39, C42, C43, C44</td>
+<td align="left">Capacitor, 10uF, 10V, 10%, 0603, Ceramic, X5R</td>
+<td align="left">11</td>
+<td align="left">Murata</td>
+<td align="left">GRM188R61A106KE69D</td>
+<td align="left">Digikey</td>
+<td align="left">490-10474-1-ND</td>
+</tr>
+<tr>
+<td align="left">C34</td>
+<td align="left">Capacitor, 15pF, 50V, 2%, 0201, Ceramic, C0G(NP0)</td>
+<td align="left">1</td>
+<td align="left">Murata</td>
+<td align="left">GRM0335C1H150GA01D</td>
+<td align="left">Digikey</td>
+<td align="left">490-11309-1-ND</td>
+</tr>
+<tr>
+<td align="left">C36, C58, C59</td>
+<td align="left">Capacitor, 12pF, 50V, 2%, 0201, Ceramic, C0G(NP0)</td>
+<td align="left">3</td>
+<td align="left">Murata</td>
+<td align="left">GRM0335C1H120GA01D</td>
+<td align="left">Digikey</td>
+<td align="left">490-11308-1-ND</td>
+</tr>
+<tr>
+<td align="left">C45, C46, C47, C48</td>
+<td align="left">Capacitor, 47uF, 10V, 20%, 0805, Ceramic, X5R</td>
+<td align="left">4</td>
+<td align="left">Murata</td>
+<td align="left">GRM21BR61A476ME15L</td>
+<td align="left">Mouser</td>
+<td align="left">81-GRM21BR61A476ME15L</td>
+</tr>
+<tr>
+<td align="left">C51, C52, C53, C54, C61, C62</td>
+<td align="left">Capacitor, 10uF, 50V, 10%, 1206, Ceramic, X7R</td>
+<td align="left">6</td>
+<td align="left">Samsung</td>
+<td align="left">CL31B106KBHNNNE</td>
+<td align="left">Digikey</td>
+<td align="left">1276-6767-1-ND</td>
+</tr>
+<tr>
+<td align="left">CON2</td>
+<td align="left">Connector, Generic, Header, 2POS, 2.54mm</td>
+<td align="left">1</td>
+<td align="left">Generic</td>
+<td align="left">Generic</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">D1</td>
+<td align="left">LED, 635nm, 140deg, , 20mA, , 1.6mm x 0.8mm, -30C - 85C</td>
+<td align="left">1</td>
+<td align="left">Dialight</td>
+<td align="left">598-8010-107F</td>
+<td align="left">Mouser</td>
+<td align="left">645-598-8010-107F</td>
+</tr>
+<tr>
+<td align="left">D2, D3, D4, D5</td>
+<td align="left">Diode, -40C - 150C, SOD-323</td>
+<td align="left">4</td>
+<td align="left">Toshiba</td>
+<td align="left">CUS10S40,H3F</td>
+<td align="left">Mouser</td>
+<td align="left">757-CUS10S40H3F</td>
+</tr>
+<tr>
+<td align="left">D6</td>
+<td align="left">LED, 593nm, 140deg, , 20mA, , 1.6mm x 0.8mm, -30C - 85C</td>
+<td align="left">1</td>
+<td align="left">Dialight</td>
+<td align="left">598-8040-107F</td>
+<td align="left">Mouser</td>
+<td align="left">645-598-8040-107F</td>
+</tr>
+<tr>
+<td align="left">FB1, FB2, FB3</td>
+<td align="left">FERRITE CHIP BEAD 600 OHM SMD</td>
+<td align="left">3</td>
+<td align="left">TDK</td>
+<td align="left">MPZ1608S601A</td>
+<td align="left">Digikey</td>
+<td align="left">445-2205-1-ND</td>
+</tr>
+<tr>
+<td align="left">J1</td>
+<td align="left">Connector, TE Connectivity, Receptacle, 20POS, 0.9mm</td>
+<td align="left">1</td>
+<td align="left">TE Connectivity</td>
+<td align="left">2129320-3</td>
+<td align="left">Digikey</td>
+<td align="left">A120537CT-ND</td>
+</tr>
+<tr>
+<td align="left">J2</td>
+<td align="left">Connector, FCI, Right Angle, 12POS, 0.5mm</td>
+<td align="left">1</td>
+<td align="left">FCI</td>
+<td align="left">10051922-1210ELF</td>
+<td align="left">Digikey</td>
+<td align="left">609-1236-6-ND</td>
+</tr>
+<tr>
+<td align="left">J3, J4</td>
+<td align="left">Connector, Kyocera, Receptacle, 50POS, 0.35mm</td>
+<td align="left">2</td>
+<td align="left">Kyocera</td>
+<td align="left">245863050104829+</td>
+<td align="left">Kyocera</td>
+<td align="left">245863050104829+</td>
+</tr>
+<tr>
+<td align="left">L1, L4</td>
+<td align="left">FIXED IND 4.7UH 1.4A 216 MOHM</td>
+<td align="left">2</td>
+<td align="left">Murata</td>
+<td align="left">DFE252012R-H-4R7M=P2</td>
+<td align="left">Digikey</td>
+<td align="left">490-10658-1-ND</td>
+</tr>
+<tr>
+<td align="left">L2, L3</td>
+<td align="left">INDUCTOR 1.0UH 20% 1600MA 1008</td>
+<td align="left">2</td>
+<td align="left">Murata</td>
+<td align="left">LQM2HPN1R0MG0L</td>
+<td align="left">Digikey</td>
+<td align="left">490-5112-1-ND</td>
+</tr>
+<tr>
+<td align="left">L5, L6</td>
+<td align="left">Fixed Inductors XAL4040 AEC-Q200 15 uH 20 % 2.8 A</td>
+<td align="left">2</td>
+<td align="left">Coilcraft</td>
+<td align="left">XAL4040-153MEB</td>
+<td align="left">Mouser</td>
+<td align="left">994-XAL4040-153MEB</td>
+</tr>
+<tr>
+<td align="left">LCD1, LCD2</td>
+<td align="left">3.5inch 1440RGB*1600 TFT-LCD Module</td>
+<td align="left">2</td>
+<td align="left">BOE</td>
+<td align="left">VS035ZSM-NW0-69P0</td>
+<td align="left">BOE</td>
+<td align="left">VS035ZSM-NW0-69P0</td>
+</tr>
+<tr>
+<td align="left">Q1, Q2</td>
+<td align="left">Transistor, NFET_DUAL, 2.2Ohm, 200mA, 120mW, SOT-563, -55C - 150C</td>
+<td align="left">2</td>
+<td align="left">Rohm Semiconductor</td>
+<td align="left">EM6K34T2CR</td>
+<td align="left">Digikey</td>
+<td align="left">EM6K34T2CRCT-ND</td>
+</tr>
+<tr>
+<td align="left">R1, R2, R3, R4, R20</td>
+<td align="left">Resistor, 1M, 1/20W, 1%, 0201</td>
+<td align="left">5</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF1004C</td>
+<td align="left">Digikey</td>
+<td align="left">P1.00MABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R6, R7</td>
+<td align="left">Resistor, 4.7K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF4701C</td>
+<td align="left">Digikey</td>
+<td align="left">P4.70KABDKR-ND</td>
+</tr>
+<tr>
+<td align="left">R8, R9, R10, R12, R14, R43</td>
+<td align="left">Resistor, 10K, 1/20W, 5%, 0201</td>
+<td align="left">6</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEJ103C</td>
+<td align="left">Digikey</td>
+<td align="left">P10KAGCT-ND</td>
+</tr>
+<tr>
+<td align="left">R11, R13, R15, R21</td>
+<td align="left">Resistor, 1K, 1/20W, 5%, 0201</td>
+<td align="left">4</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEJ102C</td>
+<td align="left">Digikey</td>
+<td align="left">P1.0KAGCT-ND</td>
+</tr>
+<tr>
+<td align="left">R16, R18, R19, R24, R32</td>
+<td align="left">Resistor, 0R, 1/10W, Jumper, 0402</td>
+<td align="left">5</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-2GE0R00X</td>
+<td align="left">Digikey</td>
+<td align="left">P0.0JCT-ND</td>
+</tr>
+<tr>
+<td align="left">R23</td>
+<td align="left">Resistor, 200K, 1/20W, 1%, 0201</td>
+<td align="left">1</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF2003C</td>
+<td align="left">Digikey</td>
+<td align="left">P200KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R25</td>
+<td align="left">Resistor, 36.5K, 1/20W, 1%, 0201</td>
+<td align="left">1</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF3652C</td>
+<td align="left">Digikey</td>
+<td align="left">P36.5KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R26</td>
+<td align="left">Resistor, 560K, 1/20W, 1%, 0201</td>
+<td align="left">1</td>
+<td align="left">Yageo</td>
+<td align="left">RC0201FR-07560KL</td>
+<td align="left">Digikey</td>
+<td align="left">YAG2728CT-ND</td>
+</tr>
+<tr>
+<td align="left">R27, R34</td>
+<td align="left">Resistor, 30K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF3002C</td>
+<td align="left">Digikey</td>
+<td align="left">P30.0KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R28, R29</td>
+<td align="left">Resistor, 150K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF1503C</td>
+<td align="left">Digikey</td>
+<td align="left">P150KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R30</td>
+<td align="left">Resistor, 715K, 1/20W, 1%, 0201</td>
+<td align="left">1</td>
+<td align="left">Yageo</td>
+<td align="left">RC0201FR-07715KL</td>
+<td align="left">Digikey</td>
+<td align="left">YAG2785CT-ND</td>
+</tr>
+<tr>
+<td align="left">R31</td>
+<td align="left">Resistor, 10R, 1/10W, 1%, 0402</td>
+<td align="left">1</td>
+<td align="left">Panasonic</td>
+<td align="left">ERJ-2RKF10R0X</td>
+<td align="left">Mouser</td>
+<td align="left">667-ERJ-2RKF10R0X</td>
+</tr>
+<tr>
+<td align="left">R33</td>
+<td align="left">Resistor, 90.9K, 1/20W, 1%, 0201</td>
+<td align="left">1</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF9092C</td>
+<td align="left">Digikey</td>
+<td align="left">P90.9KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R35, R36</td>
+<td align="left">Resistor, 750K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF7503C</td>
+<td align="left">Digikey</td>
+<td align="left">P750KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R37, R38</td>
+<td align="left">Resistor, 130K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF1303C</td>
+<td align="left">Digikey</td>
+<td align="left">P130KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R39, R41</td>
+<td align="left">Resistor, 49.9K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">ERJ-1GEF4992C</td>
+<td align="left">Digikey</td>
+<td align="left">P49.9KABCT-ND</td>
+</tr>
+<tr>
+<td align="left">R40, R42</td>
+<td align="left">Resistor, 62K, 1/20W, 1%, 0201</td>
+<td align="left">2</td>
+<td align="left">Panasonic Electronic Components</td>
+<td align="left">P62.0KABDKR-ND</td>
+<td align="left">Digikey</td>
+<td align="left">P62.0KABDKR-ND</td>
+</tr>
+<tr>
+<td align="left">S3</td>
+<td align="left">Switch, SPST-NO, Button, 4.6mm x 3.2mm</td>
+<td align="left">1</td>
+<td align="left">ALPS</td>
+<td align="left">SKRPABE010</td>
+<td align="left">Mouser</td>
+<td align="left">688-SKRPAB</td>
+</tr>
+<tr>
+<td align="left">U1</td>
+<td align="left">TVS DIODE 5VWM 15VC SLP2611N9T</td>
+<td align="left">1</td>
+<td align="left">Semtech</td>
+<td align="left">RCLAMP7528T.TNT</td>
+<td align="left">Digikey</td>
+<td align="left">RCLAMP7528T.TNTCT-ND</td>
+</tr>
+<tr>
+<td align="left">U2</td>
+<td align="left">DisplayPort 1.4-to-Dual MIPI Output Converter</td>
+<td align="left">1</td>
+<td align="left">Analogix</td>
+<td align="left">ANX7530</td>
+<td align="left">Analogix</td>
+<td align="left">ANX7530</td>
+</tr>
+<tr>
+<td align="left">U3</td>
+<td align="left">IC MCU 32BIT 256KB FLASH 48QFN</td>
+<td align="left">1</td>
+<td align="left">Atmel</td>
+<td align="left">ATSAMD21G18A-MU</td>
+<td align="left">Digikey</td>
+<td align="left">ATSAMD21G18A-MU-ND</td>
+</tr>
+<tr>
+<td align="left">U4, U6</td>
+<td align="left">IC REG BUCK ADJ 1.2A SYNC 8WSON</td>
+<td align="left">2</td>
+<td align="left">TI</td>
+<td align="left">TLV62080</td>
+<td align="left">Digikey</td>
+<td align="left">296-39270-1-ND</td>
+</tr>
+<tr>
+<td align="left">U5</td>
+<td align="left">IC REG BCK BST INV ADJ DL 24VQFN</td>
+<td align="left">1</td>
+<td align="left">TI</td>
+<td align="left">TPS65131-Q1</td>
+<td align="left">Digikey</td>
+<td align="left">296-40865-1-ND</td>
+</tr>
+<tr>
+<td align="left">U7, U8</td>
+<td align="left">IC LED DRIVER 20TSSOP</td>
+<td align="left">2</td>
+<td align="left">TI</td>
+<td align="left">TPS61194-Q1</td>
+<td align="left">Digikey</td>
+<td align="left">296-43817-1-ND</td>
+</tr>
+<tr>
+<td align="left">U9</td>
+<td align="left">3.3V LDO Voltage Regulators 250mA Ultra-Lo Noise LDO Reg</td>
+<td align="left">1</td>
+<td align="left">TI</td>
+<td align="left">LP5907MFX-3.3NOPB</td>
+<td align="left">Mouser</td>
+<td align="left">595-LP5907MFX-3.3NOPB</td>
+</tr>
+<tr>
+<td align="left">Y1</td>
+<td align="left">Crystal, 24MHz, 6pF, 4-SMD (2x1.6)</td>
+<td align="left">1</td>
+<td align="left">Abracon</td>
+<td align="left">XRCGB24M000F2P0R0</td>
+<td align="left">Mouser</td>
+<td align="left">81-XRCGB24M000F2P0R0</td>
+</tr>
+<tr>
+<td align="left">Y2</td>
+<td align="left">Crystal, 32.768KHz, 12.5pF, 2-SMD(3.2x1.5)</td>
+<td align="left">1</td>
+<td align="left">Abracon</td>
+<td align="left">ABS07-32.768KHZ-T</td>
+<td align="left">Mouser</td>
+<td align="left">815-ABS07-32.768KHZ-T</td>
+</tr>
+<tr>
+<td align="left">Y3</td>
+<td align="left">Crystal, 16MHz, 10pF, 4-SMD (2x1.6)</td>
+<td align="left">1</td>
+<td align="left">Abracon</td>
+<td align="left">ABM11-16.000MHZ-D2X-T3</td>
+<td align="left">Digikey</td>
+<td align="left">535-12629-1-ND</td>
+</tr>
+</tbody>
+</table></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

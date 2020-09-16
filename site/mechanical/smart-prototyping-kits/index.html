@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Smart Prototyping Kits - Project North Star</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Project North Star</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../hi/gi" class="dropdown-item">Test</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Mechanical <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 3</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../leap-motion-r3/" class="dropdown-item">Getting Started</a>
+</li>
+            
+<li>
+    <a href="../leap-motion-r3/headset-bom.md" class="dropdown-item">Bill of Materials</a>
+</li>
+            
+<li>
+    <a href="../leap-motion-r3/headset-assembly/" class="dropdown-item">Assembly Guide</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Leap Motion Release 1</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../leap-motion-v1/v1-assembly-guide.md" class="dropdown-item">Assembly Guide</a>
+</li>
+            
+<li>
+    <a href="../leap-motion-v1/v1-3d-print-reference.md" class="dropdown-item">3D Print Reference</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Smart Prototyping Kits</a>
+</li>
+                                    
+<li>
+    <a href="https://exiii.jp/2018/07/25/project_north_star_en/" class="dropdown-item">Exii Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Software <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../software/getting-started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../software/steamvr/" class="dropdown-item">SteamVR</a>
+</li>
+                                    
+<li>
+    <a href="../../software/" class="dropdown-item">FAQ</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Calibration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../calibration/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../calibration/calibration-v1/" class="dropdown-item">Version 1</a>
+</li>
+                                    
+<li>
+    <a href="../../calibration/calibration-v2/" class="dropdown-item">Version 2</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Electronics <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../electronics/electronics/" class="dropdown-item">Electronics</a>
+</li>
+                                    
+<li>
+    <a href="../../electronics/firmware/" class="dropdown-item">Firmware</a>
+</li>
+                                    
+<li>
+    <a href="../../electronics/schematics/" class="dropdown-item">Schematics</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community Links <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="https://discordapp.com/invite/NghjdX7" class="dropdown-item">Discord</a>
+</li>
+                                    
+<li>
+    <a href="https://twitter.com/search?q=%23ProjectNorthStar" class="dropdown-item">Twitter</a>
+</li>
+                                    
+<li>
+    <a href="https://www.reddit.com/r/ProjectNorthStar/" class="dropdown-item">Reddit</a>
+</li>
+                                    
+<li>
+    <a href="https://forums.leapmotion.com/t/project-north-star/7071" class="dropdown-item">Leap Motion Forums</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Leap Motion Blogs <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/tag/north-star/" class="dropdown-item">Blog</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/bending-reality-north-stars-calibration-system/" class="dropdown-item">Bending Reality North Star’s Calibration System</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-3/" class="dropdown-item">Project North Star Mechanical Update 3</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-and-calibration-update-3-1/" class="dropdown-item">Project North Star Mechanical and Calibration Update 3.1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/project-north-star-mechanical-update-1/" class="dropdown-item">Project North Star Mechanical Update 1</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/north-star-open-source/" class="dropdown-item">Project North Star is Now Open Source</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/our-journey-to-the-north-star/" class="dropdown-item">Our Journey to the North Star</a>
+</li>
+                                    
+<li>
+    <a href="http://blog.leapmotion.com/northstar/" class="dropdown-item">Unveiling Project North Star</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../leap-motion-r3/headset-assembly/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../changelog/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#faq-smart-prototyping-kits" class="nav-link">FAQ Smart Prototyping Kits</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#what-kind-of-screws-are-in-the-kit-what-tools-do-i-need-for-assembly-what-is-included-in-the-kit-and-what-is-not-for-putting-everything-together" class="nav-link">What kind of screws are in the kit? What tools do I need for assembly (what is included in the kit and what is not for putting everything together)?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#what-is-the-difference-between-the-25cm-and-75cm-version-of-the-headset" class="nav-link">What is the difference between the 25cm and 75cm version of the headset?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#if-i-already-have-a-calibration-json-file-for-my-headset-can-i-not-simply-reuse-that-in-the-event-that-i-reprint-the-display-trays-change-them-from-25-cm-to-75-cm-or-vice-versa" class="nav-link">If I already have a calibration JSON file for my headset, can I not simply reuse that in the event that I reprint the display trays / change them from 25 cm to 75 cm or vice versa?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#my-displays-have-arrived-but-the-connector-ribbon-is-strongly-attached-to-the-back-do-i-peel-it-off-before-inserting-it-into-the-screen-holder-what-about-the-small-circuit-boards-attached-to-it-do-they-come-off-with-the-ribbon-cable-or-do-they-stay-attached-to-the-ribbon-cable" class="nav-link">My displays have arrived but the connector ribbon is strongly attached to the back. Do I peel it off before inserting it into the screen holder? What about the small circuit boards attached to it? Do they come off with the ribbon cable or do they stay attached to the ribbon cable?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#how-do-i-insert-the-displays-into-the-display-tray-and-attach-the-unit-to-the-headset" class="nav-link">How do I insert the displays into the display tray and attach the unit to the headset?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#what-are-the-cables-connecting-to-the-display-driver-board" class="nav-link">What are the cables connecting to the display driver board?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="faq-smart-prototyping-kits">FAQ <a href="https://www.smart-prototyping.com/AR-VR-MR-XR/AR-VR-Kits-Bundles">Smart Prototyping Kits</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This page is intended to be specifically about the Smart Prototyping kits, there will be some overlap with general FAQ. Check the sidebar to jump to the correct question.</p>
+</div>
+<h3 id="what-are-the-differences-between-the-kits-which-should-i-get">What are the differences between the kits? Which should I get?</h3>
+<p>Smart Prototyping offers multiple kits. </p>
+<ul>
+<li><strong>Kit A</strong> contains all the electronics and mechanical pieces to get you started with your build, but does NOT come with 3D printed parts. You'll have to print them, and assemble the headset. </li>
+<li><strong>Kit B</strong> contains all the electronics and mechanical parts, along with the 3D printed parts. You'll still need to assemble and calibrate the headset. </li>
+<li><strong>Kit C</strong> contains the headset fully assembled and pre-calibrated.</li>
+</ul>
+<p>You can also choose which set of cables you'd like with your headset on the checkout page, or order extra parts or upgrade kits as the project continues development. </p>
+<h2 id="what-kind-of-screws-are-in-the-kit-what-tools-do-i-need-for-assembly-what-is-included-in-the-kit-and-what-is-not-for-putting-everything-together">What kind of screws are in the kit? What tools do I need for assembly (what is included in the kit and what is not for putting everything together)?</h2>
+<p>The smart prototyping kits come with a full screwdriver kit, and all the screws you'll need to build the headset, aside from a soldering iron. A soldering iron is used for heating up the heat-threaded inserts and can be found at any local electronics store for around $10 USD.</p>
+<h2 id="what-is-the-difference-between-the-25cm-and-75cm-version-of-the-headset">What is the difference between the 25cm and 75cm version of the headset?</h2>
+<p>These numbers refer to the focal distance that the images appear from the user. The only difference between the two is the location of the screens relative to the combiner. The focal distances can be switched by replacing the display tray.   </p>
+<p>Typically, we recommend starting with a 25cm build since they are easier to get started with. <br />
+<a href="https://www.smart-prototyping.com/AR-VR-MR-XR/AR-VR-Kits-Bundles/Project-North-Star-Kit-B">Kit B</a> ships with both 25cm and 75cm trays so you can choose which method you want when you build your headset. <a href="https://www.smart-prototyping.com/AR-VR-MR-XR/AR-VR-Kits-Bundles/Project-North-Star-Kit-C">Kit C</a>, the preassembled version requires you to choose which version you want before ordering as these headset are pre-calibrated.   </p>
+<p>****25cm is sharper for items attached to your hand or right in front of your face.</p>
+<ul>
+<li>
+<p>25cm provides a much better experience when using all the virtual wearable interfaces from Leap Motion</p>
+</li>
+<li>
+<p>25cm allows for a slightly wider FOV</p>
+</li>
+<li>
+<p>25cm is also much brighter because of the angle of incidence and collimation layer in the display panel</p>
+</li>
+<li>
+<p>for wandering about and batting stuff around, throwing things, sticking stuff to your wall, or making Characters run around the room 75cm is way more convincing. With 25cm, the Vergence accommodation effect is noticeable, even if you get your IPD just right</p>
+</li>
+<li>
+<p>75 cm is harder to calibrate than 25cm</p>
+</li>
+</ul>
+<p>In general, 75 cm is better if a lot of things you’re dealing with are further away, while 25 cm is best if you’re prototyping hand interactions. You can still tell how far away things are with either of the focal distances via stereo overall. </p>
+<p>So to conclude, whichever decision you opt for will work depending on what you plan on doing. However, something to keep in mind is that if you wish to switch between the two display holders, you have to put the screens into the new trays and recalibrate the headset using the stand.</p>
+<h2 id="if-i-already-have-a-calibration-json-file-for-my-headset-can-i-not-simply-reuse-that-in-the-event-that-i-reprint-the-display-trays-change-them-from-25-cm-to-75-cm-or-vice-versa">If I already have a calibration JSON file for my headset, can I not simply reuse that in the event that I reprint the display trays / change them from 25 cm to 75 cm or vice versa?</h2>
+<p>Just switching or reusing past calibration JSONs isn’t enough. Simply knocking a set of combiners in an optics bracket into a different position by a fraction of a mm is enough to invalidate the calibration. The same goes for repositioning, or removing and reinserting the display in the same tray. Displays and combiners cannot move relative to each other without needing recalibration. There’s also a lot of imprecision in FDM printing and hand assembly. The positioning of the headset inserts in the back of the trays is, alone, imprecise enough that most headsets are imperfect by nature for the level of quality that is required for this project if you want the best experience that North Star is capable of producing.</p>
+<h2 id="my-displays-have-arrived-but-the-connector-ribbon-is-strongly-attached-to-the-back-do-i-peel-it-off-before-inserting-it-into-the-screen-holder-what-about-the-small-circuit-boards-attached-to-it-do-they-come-off-with-the-ribbon-cable-or-do-they-stay-attached-to-the-ribbon-cable">My displays have arrived but the connector ribbon is strongly attached to the back. Do I peel it off before inserting it into the screen holder? What about the small circuit boards attached to it? Do they come off with the ribbon cable or do they stay attached to the ribbon cable?</h2>
+<p>Currently you have to peel the cable *<em><strong>carefully and patiently</strong></em>* from the back of the display. <br />
+A detailed and descriptive video is available here, elaborating on how to carefully handle this item here: <a href="https://youtu.be/YsGSf7lwdCs">https://youtu.be/YsGSf7lwdCs</a></p>
+<h2 id="how-do-i-insert-the-displays-into-the-display-tray-and-attach-the-unit-to-the-headset">How do I insert the displays into the display tray and attach the unit to the headset?</h2>
+<p>Make sure you DO NOT force the screen inside the screen holder under any circumstance. The screen holder has a tray that goes all around which will allow the screen to slide in smoothly. The screen is very sensitive and damage to it is in many cases irreparable and will require a re-order of a new component.</p>
+<h2 id="what-are-the-cables-connecting-to-the-display-driver-board">What are the cables connecting to the display driver board?</h2>
+<p>There are a total of four cables connecting to the board (see picture below):<br />
+- two are the two ribbon cables that send data and power to the two displays. The connections are on either side of the board<br />
+ one for power <br />
+ one for the mini display port (for transferring data) </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Note that the board will only work with display port connections that support 4k@60hz, hdmi -&gt; displayport adapters will not work. usb-c with displayport functionality or displayport to mini-displayport adapters work fine, as long as they support 4k@60hz.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>NOTE: IT IS VERY IMPORTANT YOU CONNECT THE POWER in the right direction as per the image shown below or irreparable damage might occur to the board.</p>
+</div>
+<p><img alt="" src="../img/smart-prototyping.png" /></p>
+<p>The expected behavior for the board having adequate power and working properly is having yellow led turned on. The LED's location has also been labeled in the image attached above. If there is also a red led lighting up upon plugging it in, this is reflective of insufficient power being fed into the board. If you have a voltmeter handy you might be interested in checking if after plugging the USB into a computer or a wall socket to usb converter that the voltmeter shows 5V of potential. This is the expected output for a USB connection. If the output voltage is correct or if you see no led light lighting whatsoever then there must be an issue with the device driver board. If this is the case reach out in the #noa-labs-display-adapter channel on the discord server for help in debugging.  </p>
+<p>Secondly, if you do see the board led lighting up but don’t see anything on the screen you can do a couple of things to get things going:</p>
+<ul>
+<li>
+<p>Plugging the power USB in the same computer where you are plugging your display adapter makes things sync up (as this common source shares the same ground)</p>
+</li>
+<li>
+<p>Disconnect everything and connect things in the following order: displays first (make sure you align the pins correctly and don’t force push the cables into the board as that might damage the pins), connect the power cable into your laptop and finally the display adapter. DO NOT under any circumstance unplug the display cables directly from the board while power is being connected. Also, always opt for operating with the cables that connect to the computer</p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is a reset button. Using it is actually much safer than plugging cables in and out during testing.</p>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

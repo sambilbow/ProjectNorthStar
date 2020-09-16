@@ -2,17 +2,21 @@ site_name: Project North Star
 
 nav:
   - Getting Started:
-      - Home: README.md
-      - Community Links: community-links.md
+      - FAQ General: getting-started/faq-general.md
+      - FAQ Smart Prototyping Kits: getting-started/faq-smart-prototyping.md
+      - FAQ Mechanical: getting-started/faq-mechanical.md
+      - FAQ Software: getting-started/faq-software.md
+      - Helpful Content: getting-started/helpful-content.md
   - Mechanical:
-      - Getting Started: mechanical/README.md
+      - CombineReality Deck X:
+          - Deck X Assembly Guide: /
       - Leap Motion Release 3:
           - Getting Started: mechanical/leap-motion-r3/README.md
           - Bill of Materials: mechanical/leap-motion-r3/headset-bom.md
           - Assembly Guide: mechanical/leap-motion-r3/headset-assembly.md
       - Leap Motion Release 1:
-          - Assembly Guide: mechanical/leap-motion-v1/v1-assembly-guide.md
-          - 3D Print Reference: mechanical/leap-motion-v1/v1-3d-print-reference.md
+          - Assembly Guide: mechanical/leap-motion-r1/r1-assembly-guide.md
+          - 3D Print Reference: mechanical/leap-motion-r1/r1-3d-print-reference.md
       - Smart Prototyping Kits: mechanical/smart-prototyping-kits.md
       - Exii Version 1: https://exiii.jp/2018/07/25/project_north_star_en/
       - Changelog: mechanical/changelog.md
