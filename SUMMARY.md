@@ -20,7 +20,9 @@
 * [Northstar Release 1](mechanical/northstar-v1/README.md)
   * [Initial Release 3D Printing Reference](mechanical/northstar-v1/initial-release-3d-printing-reference.md)
   * [Initial Release Assembly Guide](mechanical/northstar-v1/initial-release-assembly-guide.md)
-* [Calibration Stand Assembly Guide](mechanical/calibration-stand-assembly-guide.md)
+* [Optical Calibration Stand](mechanical/optical-calibration-stand/README.md)
+  * [Optical Calibration Stand Bill of Materials](mechanical/optical-calibration-stand/optical-calibration-stand-bom.md)
+  * [Optical Calibration Stand Assembly Guide](mechanical/optical-calibration-stand/optical-calibration-stand-assembly-guide.md)
 * [FAQ Mechanical](mechanical/faq-mechanical.md)
 
 ## Software
@@ -34,7 +36,6 @@
 * [Getting Started with Calibration](calibration/getting-started/README.md)
   * [3D Optical Calibration](calibration/getting-started/3d-calibration.md)
   * [2D Optical Calibration](calibration/getting-started/2d-calibration.md)
-  * [Calibration Stand Bill of Materials](calibration/getting-started/calibration-stand-bom.md)
 
 ## Electronics
 
