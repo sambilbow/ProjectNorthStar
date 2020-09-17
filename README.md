@@ -1,7 +1,3 @@
----
-description: The open-source files comprising Leap Motion's Project North Star AR Headset.
----
-
 # Project North Star
 
 Welcome to the [community built documentation](https://project-north-star.gitbook.io/project-north-star/) for \#ProjectNorthStar!
