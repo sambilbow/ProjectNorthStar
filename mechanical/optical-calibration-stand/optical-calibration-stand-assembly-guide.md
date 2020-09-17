@@ -2,13 +2,18 @@
 
 2D and 3D optical calibration share the same 3D printable stand. You can find the assembly instructions below. \(Note that they show the instructions for the original dual camera stand\)
 
-![](../../.gitbook/assets/image%20%281%29.png)
+This guide is also available as a PDF:
 
-![](../../.gitbook/assets/image%20%282%29.png)
+{% file src="../../.gitbook/assets/assm-drawing-calibration-stand \(2\).pdf" %}
 
-![Camera Holder Assembly for V1](../../.gitbook/assets/image%20%283%29.png)
+## 300-000
 
+![CALIBRATION STAND ASSM.](../../.gitbook/assets/assm-drawing-calibration-stand-1.png)
 
+## 310-000
 
+![HEADSET HOLDER ASSM.](../../.gitbook/assets/assm-drawing-calibration-stand-2.png)
 
+## 320-000
 
+![CAMERA HOLDER ASSM. (For 3D Calibration)](../../.gitbook/assets/assm-drawing-calibration-stand-3.png)
