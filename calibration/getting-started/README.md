@@ -42,17 +42,6 @@ Hand position is dependent on the position of the leap motion sensor, make sure 
 | OpenVR/Unreal | Yes | In Progress |
 |  |  |  |
 
-## Calibration Stand Assembly
-
-Version One and Version Two of the calibration setup share the same 3D printable stand. You can find the assembly instructions below. \(Note that they show the instructions for the original dual camera stand\)
-
-![](../../.gitbook/assets/image%20%281%29.png)
-
-![](../../.gitbook/assets/image%20%282%29.png)
-
-![Camera Holder Assembly for V1](../../.gitbook/assets/image%20%283%29.png)
-
-
 
 ## [3D Optical Calibration](3d-calibration.md)
 
