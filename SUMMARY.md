@@ -33,9 +33,10 @@
 
 ## Calibration
 
-* [Getting Started with Calibration](calibration/getting-started/README.md)
-  * [3D Optical Calibration](calibration/getting-started/3d-calibration.md)
-  * [2D Optical Calibration](calibration/getting-started/2d-calibration.md)
+* [Getting Started with Calibration](calibration/getting-started.md)
+* [3D Optical Calibration](calibration/3d-calibration.md)
+* [2D Optical Calibration](calibration/2d-calibration.md)
+* [Hand Position Calibration](calibration/hand-position-calibration.md)
 
 ## Electronics
 
